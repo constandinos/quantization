@@ -36,13 +36,13 @@ How to compile:
 cd bin
 
 # DroNet
-./darknet detector test names/car.names cfg/DroNet_car.cfg weights/DroNet_car.weights -thresh 0.4 images/car.png -quantized
+./darknet detector test names/car.names cfg/DroNet_car.cfg weights/DroNet_car.weights images/car.png -thresh 0.4 -quantized
 
 # DroNetV3
-./darknet detector test names/car_ped.names cfg/DroNetV3_car.cfg weights/DroNetV3_car.weights -thresh 0.4 images/car.png -quantized
+./darknet detector test names/car_ped.names cfg/DroNetV3_car.cfg weights/DroNetV3_car.weights images/car.png -thresh 0.4 -quantized
 
 # Tiny-Yolo
-./darknet detector test names/coco.names cfg/yolov3-tiny-car.cfg weights/yolov3-tiny-car.weights -thresh 0.4 images/car.png -quantized
+./darknet detector test names/coco.names cfg/yolov3-tiny-car.cfg weights/yolov3-tiny-car.weights images/car.png -thresh 0.4 -quantized
 ```
 
 
